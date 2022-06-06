@@ -9,11 +9,10 @@
  */
 int main(void)
 {
-int n = 48;
-while (n <= 57)
+int num;
+for (num = 0; num <= 9; num++)
 {
-putchar(n);
-n += 1;
+putchar((num % 10 + '0'));
 }
 putchar("\n");
 return (0);
